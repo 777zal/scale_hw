@@ -1,0 +1,7 @@
+/scale-backups
+*.zip
+fp-info-cache
+*.lck
+*.kicad_prl
+*.txt
+*.wrl
