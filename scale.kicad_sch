@@ -1,5 +1,82 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8f227bf3-f4cf-485c-a746-8377af835d89)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 129.54 50.038) (size 40.386 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 10be11e8-d58f-4934-80aa-7bf19d703461)
+    (property "Sheetname" "mcu" (at 129.54 49.3264 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 129.54 78.5626 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "scale"
+        (path "/8f227bf3-f4cf-485c-a746-8377af835d89" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 67.564 106.934) (size 37.846 25.908) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 39c2c3b0-4826-42ca-a0df-7d76b180d9b9)
+    (property "Sheetname" "weighing_unit" (at 67.564 106.2224 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "weighing_unit.kicad_sch" (at 67.564 133.4266 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "scale"
+        (path "/8f227bf3-f4cf-485c-a746-8377af835d89" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 45.974 44.196) (size 44.196 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8951c937-3b75-44e0-adec-d48eee6939fb)
+    (property "Sheetname" "power_management" (at 45.974 43.4844 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_management.kicad_sch" (at 45.974 70.1806 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "scale"
+        (path "/8f227bf3-f4cf-485c-a746-8377af835d89" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 155.194 106.934) (size 34.544 28.702) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b5072de9-1b37-4196-ac13-e62e0361c228)
+    (property "Sheetname" "display" (at 155.194 106.2224 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "display.kicad_sch" (at 155.194 136.2206 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "scale"
+        (path "/8f227bf3-f4cf-485c-a746-8377af835d89" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
