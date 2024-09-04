@@ -1044,7 +1044,7 @@
     (property "Value" "Fuse" (at 127 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 127 64.262 90)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 127 64.262 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 62.484 0)
