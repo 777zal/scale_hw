@@ -16,3 +16,6 @@ kicad-cli pcb export drill -o Doc/ \
                            --excellon-separate-th \
                            --map-format gerberx2 \
                            ./scale.kicad_pcb
+
+cd PROD/GBR/
+zip -r ../../PROD/GBR.zip .
